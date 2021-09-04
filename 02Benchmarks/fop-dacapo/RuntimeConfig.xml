@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RuntimeConfig>
+    <vmoption>
+        -xml
+    </vmoption>
+    <vmoption>
+        sootOutput/fop-dacapo/name.xml
+    </vmoption>
+    <vmoption>
+        -xsl
+    </vmoption>
+    <vmoption>
+        sootOutput/fop-dacapo/name2fo.xsl
+    </vmoption>
+    <vmoption>
+        -pdf
+    </vmoption>
+    <vmoption>
+        sootOutput/fop-dacapo/name.pdf
+    </vmoption>
+</RuntimeConfig>

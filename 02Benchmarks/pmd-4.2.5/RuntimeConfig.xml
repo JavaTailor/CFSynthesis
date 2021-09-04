@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RuntimeConfig>
+    <vmoption>
+        sootOutput/pmd-4.2.5/Hello.java
+    </vmoption>
+    <vmoption>
+        text
+    </vmoption>
+    <vmoption>
+        unusedcode
+    </vmoption>
+</RuntimeConfig>
