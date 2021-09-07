@@ -97,13 +97,13 @@ DTConfiguration.setProjectDepensRoot("." + DTPlatform.FILE_SEPARATOR + "sootOutp
 ##### (5) Directory description
 
 ```markdown
-├── 01JVMS								:  test subjects
-├── 02Benchmarks					:  origin benchmarks
-├── 03results							:  difference report
+├── 01JVMS					:  test subjects
+├── 02Benchmarks			:  origin benchmarks
+├── 03results				:  difference report
 ├── 04SynthesisHistory		:  programs generated during synthsizing 
-├── DTJVM									:  Execution Phase Module
-├── JavaTailor						:  Synthesis Phase Module
-├── Main									:  Control Module
-└── sootOutput						:  benchmarks for synthesized
+├── DTJVM					:  Execution Phase Module
+├── JavaTailor				:  Synthesis Phase Module
+├── Main					:  Control Module
+└── sootOutput				:  benchmarks for synthesized
 ```
 
