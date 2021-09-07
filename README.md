@@ -22,11 +22,11 @@ For example, Figure 2 shows the coverage comparison results, where the gray line
 
 ### II. Getting Started
 
-##### (1) Import as an maven project
+##### step 1: Import as an maven project
 
 JavaTailor is developed as an maven project, so to configure and run JavaTailor, you can import it dierctly into your IntelliJ IDEA workspace as a maven project.  
 
-##### (2) import test subjects
+##### step 2: import test subjects
 
 The directory of these test subjects can be set in the code. However,  JavaTailor has specific requirements for teh directory format of test subejcts. Please place your test subjects in the following format.
 
@@ -48,11 +48,11 @@ The directory of these test subjects can be set in the code. However,  JavaTailo
 └── 
 ```
 
-##### (3) create sootOuput directory
+##### step 3: create sootOuput directory
 
 Create **sootOuput** directory and copy  all items under **02Benchmarks** to **sootOuput**
 
-##### (4) test
+##### step 4: test
 
 a. To have a preview of all test subjects and benchmarks, execute **Preview** under **Main/src/main/java**. If all your settings are correct, the output of preview should be like：
 
@@ -94,7 +94,7 @@ DTConfiguration.setJvmDepensRoot("." + DTPlatform.FILE_SEPARATOR + "01JVMS");
 DTConfiguration.setProjectDepensRoot("." + DTPlatform.FILE_SEPARATOR + "sootOutput");
 ```
 
-##### (5) Directory description
+### III. Directory description
 
 ```markdown
 ├── 01JVMS					:  test subjects
