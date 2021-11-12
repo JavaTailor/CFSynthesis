@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5679459.svg)](https://doi.org/10.5281/zenodo.5679459)
+
 ### CFSynthesis
 
 This is the implementation of our ICSE 2022 paper: History-Driven Test Program Synthesis for JVM Testing.
@@ -27,7 +29,7 @@ JavaTailor is developed as an maven project, so to configure and run JavaTailor,
 
 ##### step 2: import test subjects
 
-The directory of these test subjects can be set in the code. However,  JavaTailor has specific requirements for teh directory format of test subejcts. Please place your test subjects in the following format.
+The directory of these test subjects can be set in the code. However,  JavaTailor has specific requirements for the directory format of test subejcts. Please place your test subjects in the following format.
 
 ```markdown
 ├── 01JVMS
